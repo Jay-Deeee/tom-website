@@ -1,1 +1,1 @@
-# tom-website
+This is a website I am making for a good friend of mine. I am very new to this space so this will serve as my first real product and I will continue updating this as I continue learning. I am very open to constructive criticism and will eventually add a way to contact me so as to easily give remarks about this work.
