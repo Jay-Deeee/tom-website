@@ -11,6 +11,14 @@ body {
     margin: 0;
 }
 
+#border-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+    right: 5%;
+    border-bottom: 2px solid #cccaca80;
+}
+
 a {
     text-decoration: none;
     color: #000000;
@@ -63,9 +71,13 @@ button {
     border-bottom: none;
 }
 
-.hero {
+.hero, .info {
     display: flex;
     flex-direction: column;
+}
+
+.info {
+    padding-bottom: 150px;
 }
 
 .header {
@@ -95,10 +107,10 @@ button {
 }
 
 .left {
-    width: 700px;
+    min-width: 700px;
 }
 
-.hero-title {
+.title {
     font-size: 36px;
     font-weight: 900;
     margin-bottom: 20px;
@@ -126,4 +138,52 @@ button {
 .hero-img {
     height: 450px;
     border-radius: 360px;
+}
+
+.topics {
+    display: flex;
+    flex-direction: column;
+    padding: 0 250px;
+    margin-bottom: 50px;
+}
+
+.topics-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    padding: 20px 0;
+}
+
+.topics-links a, .others-links a {
+    text-decoration: underline #80808080;
+    text-underline-offset: 5px;
+}
+
+.content {
+    display: flex;
+    padding: 0 250px;
+}
+
+.others-links, .articles-links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+ol {
+    margin-left: 15px;
+}
+
+ol li {
+    list-style-type: decimal;
+}
+
+.footer{
+    color: #ffffff;
+    background-color: #808080;
+    text-align: center;
+    padding: 30px 0;
 }
